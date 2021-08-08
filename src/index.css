@@ -168,6 +168,7 @@ div.header {
   border: 1px solid black;
   border-radius: 15px;
   padding: 35px;
+  text-align: center;
 }
 
 .nav-links {
@@ -183,5 +184,14 @@ div.header {
 }
 
 .nav-links:hover {
+  color: rgb(2, 5, 43);
+}
+
+.email-link {
+  color: rgb(209, 209, 212);
+  text-decoration: none;
+}
+
+.email-link:hover {
   color: rgb(2, 5, 43);
 }
