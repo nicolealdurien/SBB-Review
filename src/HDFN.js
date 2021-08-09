@@ -1,30 +1,30 @@
 import React, { useState } from 'react';
 
-export default function HLA() {
+export default function HDFN() {
 	const [currentQuestion, setCurrentQuestion] = useState(0);
 	const [showScore, setShowScore] = useState(false);
 	const [score, setScore] = useState(0);
 	const questions = [
         {
-			questionText: 'Leukocytes contain HLA antigens of which classes?',
+			questionText: 'What percentage of pregnancies have ABO HDFN?',
 			answerOptions: [
-				{ answerText: 'Class I and II', isCorrect: true },
-				{ answerText: 'Class II and III', isCorrect: false },
-				{ answerText: 'Class I and III', isCorrect: false },
-				{ answerText: 'None of the above', isCorrect: false },
+				{ answerText: '<1%', isCorrect: false },
+				{ answerText: '5%', isCorrect: false },
+				{ answerText: '20%', isCorrect: true },
+				{ answerText: '35%', isCorrect: false },
 			],
 		},
         {
-			questionText: 'HLA Class II molecules are recognized by which type of T cell?',
+			questionText: 'Which of the following is NOT a potential outcome of HDFN?',
 			answerOptions: [
-				{ answerText: 'CD4 T-helper lymphocytes', isCorrect: true },
-				{ answerText: 'CD56 Natural Killer (NK cells)', isCorrect: false },
-				{ answerText: 'CD8 cytotoxic T lymphocytes', isCorrect: false },
-				{ answerText: 'CD20 memory B cells', isCorrect: false },
+				{ answerText: 'Maternal anemia', isCorrect: true },
+				{ answerText: 'Erythroblastosis fetalis', isCorrect: false },
+				{ answerText: 'Hepatosplenomegaly', isCorrect: false },
+				{ answerText: 'Hydrops fetalis', isCorrect: false },
 			],
 		},
         {
-			questionText: 'In which of the following clinical conditions is HLA *least* important as a consideration?',
+			questionText: 'Which of the following ',
 			answerOptions: [
 				{ answerText: 'Platelet refractoriness', isCorrect: false },
                 { answerText: 'TRALI', isCorrect: false },
@@ -159,7 +159,7 @@ export default function HLA() {
 
 	return (
 		<div class="transbox">
-			<h1>Human Leukocyte Antigens</h1>
+			<h1>Hemolytic Disease of the Fetus and Newborn (HDFN)</h1>
             <p>({questions.length} questions)</p>
             <br/>
 			<div className='app'>
@@ -167,7 +167,7 @@ export default function HLA() {
 					<div>
                         <div className='score-section'>You got {score} out of {questions.length} questions correct!</div>
                         <br/>
-                        <a href="/HLA" class="button">Retry</a>
+                        <a href="/HDFN" class="button">Retry</a>
                         <br/>
                         <a href="/" class="button">Home</a>
 					</div>

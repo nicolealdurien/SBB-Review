@@ -14,6 +14,7 @@ export default function App() {
 				<br/>
 				<NavLink class="nav-links" to="/ABO">1) A, B, O, and H Blood Groups</NavLink>
 				<NavLink class="nav-links" to="/HLA">2) Human Leukocyte Antigens (HLA)</NavLink>
+				<NavLink class="nav-links" to="/HDFN">3) Hemolytic Disease of the Fetus and Newborn (HDFN)</NavLink>
 			</div>
 		</div>
 	);

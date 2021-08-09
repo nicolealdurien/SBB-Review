@@ -6,6 +6,7 @@ import BaseLayout from './BaseLayout';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import ABOH from './ABOH'
 import HLA from './HLA'
+import HDFN from './HDFN'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,6 +16,7 @@ ReactDOM.render(
             <Route exact path = "/" component = {App} />
             <Route exact path = "/ABO" component = {ABOH} />
             <Route exact path = "/HLA" component = {HLA} />
+            <Route exact path = "/HDFN" component = {HDFN} />
           </Switch>
         </BaseLayout>
       </BrowserRouter>
