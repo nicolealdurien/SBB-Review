@@ -24,125 +24,79 @@ export default function HDFN() {
 			],
 		},
         {
-			questionText: 'Which of the following ',
+			questionText: 'Which of the following does NOT impact the severity of HDFN?',
 			answerOptions: [
-				{ answerText: 'Platelet refractoriness', isCorrect: false },
-                { answerText: 'TRALI', isCorrect: false },
-				{ answerText: 'Transfusion-associated GvHD', isCorrect: false },
-				{ answerText: 'Alloimmunization in sickle cell disease', isCorrect: true },
+				{ answerText: 'Antibody specificity', isCorrect: false },
+                { answerText: 'Antibody titer', isCorrect: false },
+				{ answerText: 'First vs subsequent pregnancy', isCorrect: false },
+				{ answerText: 'Antibody to carbohydrate antigen vs protein antigen', isCorrect: true },
 				
 			],
 		},
         {
-			questionText: 'Which HLA class is found on platelets and almost all nucleated cells in the body?',
+			questionText: 'Giving RhIG both prenatally and postpartum reduces the risk of Rh HDFN to less than:',
 			answerOptions: [
-				{ answerText: 'HLA Class I', isCorrect: true },
-				{ answerText: 'HLA Class II', isCorrect: false },
-				{ answerText: 'HLA Class III', isCorrect: false },
-				{ answerText: 'None of the above', isCorrect: false },
+				{ answerText: '0.2%', isCorrect: true },
+				{ answerText: '0.8%', isCorrect: false },
+				{ answerText: '2%', isCorrect: false },
+				{ answerText: '8%', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'ABO compatibility is more important than HLA compatibility for which types of transplants?',
+			questionText: 'When monitoring HDFN, the threshold to do IUT if <35 weeks or induce labor if >35 weeks is a hematocrit of:',
 			answerOptions: [
-				{ answerText: 'Liver and lung', isCorrect: false },
-				{ answerText: 'Corneal and ligament', isCorrect: false },
-				{ answerText: 'Heart and kidney', isCorrect: true },
-				{ answerText: 'Hemaopoetic stem cell', isCorrect: false },
+				{ answerText: '<26%', isCorrect: false },
+				{ answerText: '<28%', isCorrect: false },
+				{ answerText: '<30%', isCorrect: true },
+				{ answerText: '<32%', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'Which of the following is a Class II HLA gene?',
+			questionText: 'Which of the following is NOT an ideal criterion when choosing blood for an IUT?',
 			answerOptions: [
-				{ answerText: 'C4b', isCorrect: false },
-				{ answerText: 'Complement C2', isCorrect: false },
-				{ answerText: 'HLA-A', isCorrect: false },
-				{ answerText: 'HLA-DQ', isCorrect: true },
+				{ answerText: 'O negative', isCorrect: false },
+				{ answerText: 'Fresh units <7 days old', isCorrect: false },
+				{ answerText: 'Irradiated', isCorrect: false },
+				{ answerText: 'Whole blood', isCorrect: true },
 			],
 		},
         {
-			questionText: 'Which class of HLA molecules present endogenous peptides?',
+			questionText: 'Phototherapy is performed on a neonate if bilirubin is at or above:',
 			answerOptions: [
-				{ answerText: 'HLA Class I', isCorrect: true },
-				{ answerText: 'HLA Class II', isCorrect: false },
-				{ answerText: 'HLA Class III', isCorrect: false },
-				{ answerText: 'None of the above', isCorrect: false },
+				{ answerText: '10 mg/dL', isCorrect: false },
+				{ answerText: '12 mg/dL', isCorrect: true },
+				{ answerText: '14 mg/dL', isCorrect: false },
+				{ answerText: '16 mg/dL', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'HLA Class I molecules are recognized by which type of T cell?',
+			questionText: 'What light wavelength range is used for phototherapy?',
 			answerOptions: [
-				{ answerText: 'CD4 T-helper lymphocytes', isCorrect: false },
-				{ answerText: 'CD8 cytotoxic T lymphocytes', isCorrect: true },
-				{ answerText: 'CD56 Natural Killer (NK cells)', isCorrect: true },
-				{ answerText: 'CD20 memory B cells', isCorrect: false },
+				{ answerText: '300-360 nm', isCorrect: false },
+				{ answerText: '360-420 nm', isCorrect: false },
+				{ answerText: '420-480 nm', isCorrect: true },
+				{ answerText: '480-540 nm', isCorrect: false },
 			],
 		},
 
 		{
-			questionText: 'Which 2 complement proteins are also HLA class III proteins and RBC antigens?',
+			questionText: 'Which antibody is responsible for 80% of FNAIT cases?',
 			answerOptions: [
-				{ answerText: 'C1q and C1r', isCorrect: false },
-				{ answerText: 'C3b and C3d', isCorrect: false },
-				{ answerText: 'C4b and C4a', isCorrect: true },
-				{ answerText: 'C8 and C9', isCorrect: false },
+				{ answerText: 'Anti-GPIIb/IIIa', isCorrect: false },
+				{ answerText: 'Anti-GPIb/IX', isCorrect: false },
+				{ answerText: 'Anti-GPIa/IIa', isCorrect: false },
+				{ answerText: 'Anti-HPA-1a', isCorrect: true },
 			],
 		},
         {
-            questionText: 'Which HLA class is found only on B-lymphocytes, macrophages, dendritic cells, and activated T cells?":',
+            questionText: 'What percentage of the population is HPA-1a negative?',
             answerOptions: [
-                { answerText: 'HLA Class I', isCorrect: false },
-                { answerText: 'HLA Class II', isCorrect: true },
-                { answerText: 'HLA Class III', isCorrect: false },
-                { answerText: 'None of the above', isCorrect: false },
+                { answerText: '0.5%', isCorrect: false },
+                { answerText: '2%', isCorrect: true },
+                { answerText: '8%', isCorrect: false },
+                { answerText: '32%', isCorrect: false },
             ],
         },
-        {
-			questionText: 'How would serologic lymphocytotoxicity cell death score of 18% be interpreted?',
-			answerOptions: [
-				{ answerText: 'Negative', isCorrect: false },
-				{ answerText: 'Doubtful positive', isCorrect: false },
-				{ answerText: 'Weak positive', isCorrect: true },
-				{ answerText: 'Positive', isCorrect: false },
-			],
-		},
-        {
-			questionText: 'What "cellular crossmatch" test is rarely used but involves culturing lymphocytes from 2 individuals together?',
-			answerOptions: [
-
-				{ answerText: 'Panel Reactive Antibody (PRA)', isCorrect: false },
-				{ answerText: 'Serologic lymphocytotoxicity test', isCorrect: false },
-				{ answerText: 'Sequence-based typing', isCorrect: false },
-                { answerText: 'Mixed lymphocyte culture (MLC)', isCorrect: true },
-			],
-		},
-        {
-			questionText: 'Platelets have HLA antigens of which class?',
-			answerOptions: [
-				{ answerText: 'CLass I', isCorrect: true },
-				{ answerText: 'Class II', isCorrect: false },
-				{ answerText: 'Class III', isCorrect: false },
-				{ answerText: 'None of the above', isCorrect: false },
-			],
-		},
-        {
-			questionText: 'What condition involves HLA antibodies in donor plasma reacting with and fixing complement to recipient granulocytes, leading to severe capillary leakage and pulmonary edema?',
-			answerOptions: [
-				{ answerText: 'FNHTR', isCorrect: false },
-				{ answerText: 'TRALI', isCorrect: true },
-				{ answerText: 'TA-GvHD', isCorrect:  false},
-				{ answerText: 'TACO', isCorrect: false },
-			],
-		},
-        {
-			questionText: 'Which class of HLA molecules present exogenous/extracellular peptides?',
-			answerOptions: [
-				{ answerText: 'HLA Class I', isCorrect: false },
-				{ answerText: 'HLA Class II', isCorrect: true },
-				{ answerText: 'HLA Class III', isCorrect: false },
-				{ answerText: 'None of the above', isCorrect: false },
-			],
-		},
 	];
 
 	const handleAnswerButtonClick = (isCorrect) => {
