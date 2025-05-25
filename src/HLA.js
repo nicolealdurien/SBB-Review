@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 export default function HLA() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -170,7 +170,7 @@ export default function HLA() {
   };
 
   return (
-    <div class="transbox">
+    <div className="transbox">
       <h1>Human Leukocyte Antigens</h1>
       <p>({questions.length} questions)</p>
       <br />
@@ -181,11 +181,11 @@ export default function HLA() {
               You got {score} out of {questions.length} questions correct!
             </div>
             <br />
-            <a href="/HLA" class="button">
+            <a href="/HLA" className="button">
               Retry
             </a>
             <br />
-            <a href="/" class="button">
+            <a href="/" className="button">
               Home
             </a>
           </div>
