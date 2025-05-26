@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import BaseLayout from './BaseLayout';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import ABOH from './ABOH';
+import { ABOH } from './ABOH/ABOH';
 import HLA from './HLA';
 import HDFN from './HDFN';
 
