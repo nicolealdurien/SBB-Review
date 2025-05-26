@@ -203,6 +203,7 @@ export default function HLA() {
               {questions[currentQuestion].answerOptions.map(
                 (answerOption, index) => (
                   <button
+                    key={index}
                     onClick={() =>
                       handleAnswerButtonClick(answerOption.isCorrect)
                     }

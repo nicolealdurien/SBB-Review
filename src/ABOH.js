@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 export default function ABOH() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -156,6 +156,7 @@ export default function ABOH() {
               {questions[currentQuestion].answerOptions.map(
                 (answerOption, index) => (
                   <button
+                    key={index}
                     onClick={() =>
                       handleAnswerButtonClick(answerOption.isCorrect)
                     }

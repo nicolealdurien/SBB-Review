@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import BaseLayout from './BaseLayout';
@@ -8,18 +8,19 @@ import ABOH from './ABOH';
 import HLA from './HLA';
 import HDFN from './HDFN';
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root.render(
   <React.StrictMode>
     <BrowserRouter>
       <BaseLayout>
         <Routes>
-          <Route exact path="/" element={<App />} />
-          <Route exact path="/ABO" element={<ABOH />} />
-          <Route exact path="/HLA" element={<HLA />} />
-          <Route exact path="/HDFN" element={<HDFN />} />
+          <Route path="/" element={<App />} />
+          <Route path="/ABO" element={<ABOH />} />
+          <Route path="/HLA" element={<HLA />} />
+          <Route path="/HDFN" element={<HDFN />} />
         </Routes>
       </BaseLayout>
     </BrowserRouter>
   </React.StrictMode>,
-  document.getElementById('root'),
 );
