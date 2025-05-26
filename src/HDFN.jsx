@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export default function HDFN() {
+const HDFN = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [showScore, setShowScore] = useState(false);
   const [score, setScore] = useState(0);
@@ -168,4 +168,6 @@ export default function HDFN() {
       </div>
     </div>
   );
-}
+};
+
+export default HDFN;

@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 
-export default function App() {
+const App = () => {
   return (
     <div>
       <div className="transbox">
@@ -34,4 +34,6 @@ export default function App() {
       </div>
     </div>
   );
-}
+};
+
+export default App;

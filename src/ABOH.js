@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export default function ABOH() {
+const ABOH = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [showScore, setShowScore] = useState(false);
   const [score, setScore] = useState(0);
@@ -171,4 +171,6 @@ export default function ABOH() {
       </div>
     </div>
   );
-}
+};
+
+export default ABOH;

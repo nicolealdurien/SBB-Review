@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export default function HLA() {
+const HLA = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [showScore, setShowScore] = useState(false);
   const [score, setScore] = useState(0);
@@ -218,4 +218,6 @@ export default function HLA() {
       </div>
     </div>
   );
-}
+};
+
+export default HLA;

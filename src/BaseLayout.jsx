@@ -1,10 +1,12 @@
 import Menu from './Menu';
 
-export default function BaseLayout(props) {
+const BaseLayout = (props) => {
   return (
     <div>
       <Menu />
       {props.children}
     </div>
   );
-}
+};
+
+export default BaseLayout;

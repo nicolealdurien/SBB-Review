@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 
-export default function Menu() {
+const Menu = () => {
   return (
     <div>
       <div className="header">
@@ -12,4 +12,6 @@ export default function Menu() {
       </div>
     </div>
   );
-}
+};
+
+export default Menu;
