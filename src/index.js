@@ -5,7 +5,7 @@ import App from './App';
 import BaseLayout from './BaseLayout';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { ABOH } from './ABOH/ABOH';
-import HLA from './HLA';
+import { HLA } from './HLA/HLA';
 import { HDFN } from './HDFN/HDFN';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
