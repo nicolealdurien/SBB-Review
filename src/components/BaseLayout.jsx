@@ -1,4 +1,4 @@
-import Menu from './Menu';
+import { Menu } from './Menu';
 
 const BaseLayout = (props) => {
   return (
@@ -9,4 +9,4 @@ const BaseLayout = (props) => {
   );
 };
 
-export default BaseLayout;
+export { BaseLayout };

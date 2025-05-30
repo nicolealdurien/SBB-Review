@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import BaseLayout from './BaseLayout';
+import { BaseLayout } from './components/BaseLayout';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { ABOH } from './ABOH/ABOH';
-import { HLA } from './HLA/HLA';
-import { HDFN } from './HDFN/HDFN';
+import { ABOH } from './components/ABOH/ABOH';
+import { HLA } from './components/HLA/HLA';
+import { HDFN } from './components/HDFN/HDFN';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
